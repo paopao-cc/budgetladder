@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository and version."
+title: "BudgetLadder: Nested, overlap-aware evidence plans for changing RAG budgets"
+type: software
+version: 1.0.0
+date-released: '2026-11-15'
+authors:
+  - name: "BudgetLadder contributors"
+repository-code: 'https://github.com/paopao-cc/budgetladder'
+license: MIT

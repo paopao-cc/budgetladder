@@ -1,0 +1,9 @@
+{
+  "seed": 2026,
+  "questions": 300,
+  "chunk_size": 64,
+  "overlap": 32,
+  "candidates": 16,
+  "budgets": [64, 96, 128, 192],
+  "beam_width": 16
+}

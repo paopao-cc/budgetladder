@@ -1,0 +1,7 @@
+include README.md README_zh.md LICENSE CITATION.cff CONTRIBUTING.md requirements.txt
+recursive-include docs *.md *.json
+recursive-include configs *.json
+recursive-include examples *.py *.json
+recursive-include experiments *.py *.json *.jsonl
+recursive-include assets *.txt *.json *.gif *.png
+recursive-include scripts *.py

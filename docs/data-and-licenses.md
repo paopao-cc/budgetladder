@@ -1,0 +1,8 @@
+# Data, dependencies and licensing
+
+- Original implementation, documentation, original rover example and generated demo assets: MIT under the repository LICENSE, as authorized by the project owner. No code is copied from the compared projects.
+- Runtime: Python standard library only. Python itself is distributed under PSF licenses; it is not vendored. Build tooling uses setuptools (MIT), downloaded separately when installing. No model weights, external APIs or paid resources are required.
+- SQuAD: [official dataset page](https://rajpurkar.github.io/SQuAD-explorer/) identifies CC BY-SA 4.0. Cite Rajpurkar, Zhang, Lopyrev and Liang (2016), [paper](https://aclanthology.org/D16-1264/), and the original Wikipedia contributors for the article text. The dataset remains under its own license; the MIT code license does not relicense it. Download it separately. We do not redistribute source passages or answer text in benchmark records.
+- Published experiment records contain dataset question IDs, source paragraph/window IDs, scores, selected IDs and measurements. The generated oracle pools are original synthetic inputs, clearly labeled. If you redistribute SQuAD source text or modified datasets, preserve required attribution and follow its share-alike conditions.
+- Related tools were inspected as research. Their licenses do not grant rights to any separately distributed models/data. In particular SlimContext had no detected license in the research snapshot; no code from it is reused.
+- `assets/demo.svg` is a programmatic rendering of actual output from our original rover example, not an AI-generated screenshot or a performance claim. A terminal capture is also provided when available. No external image/font assets are required.

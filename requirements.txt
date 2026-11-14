@@ -1,0 +1,2 @@
+# Runtime uses only the Python standard library. Python >= 3.10.
+# Install the package with: python -m pip install -e .

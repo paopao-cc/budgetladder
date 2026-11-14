@@ -1,0 +1,21 @@
+BudgetLadder | source-word budgets | How does the rover conserve energy and recover its route?
+
+Budget   32  used   25  coverage 0.5450  chunks 1
+  [energy words 32:57, chars 203:358]
+  dust storm the rover parks beside a marked shelter and waits for light levels to recover. These rules conserve energy without requiring a cloud connection.
+
+Budget   64  used   57  coverage 0.7255  chunks 2
+  [energy words 32:57, chars 203:358]
+  dust storm the rover parks beside a marked shelter and waits for light levels to recover. These rules conserve energy without requiring a cloud connection.
+  [navigation words 0:32, chars 0:205]
+  The rover stores route checkpoints on local flash storage. Each checkpoint contains wheel odometry and a landmark signature. After a restart it matches the nearest landmark before resuming the route. If no
+
+Budget   96  used   85  coverage 0.8503  chunks 3
+  [energy words 32:57, chars 203:358]
+  dust storm the rover parks beside a marked shelter and waits for light levels to recover. These rules conserve energy without requiring a cloud connection.
+  [navigation words 0:32, chars 0:205]
+  The rover stores route checkpoints on local flash storage. Each checkpoint contains wheel odometry and a landmark signature. After a restart it matches the nearest landmark before resuming the route. If no
+  [radio words 16:44, chars 105:295]
+  the current checkpoint identifier. If the radio link fails the rover buffers status messages locally. This radio policy limits transmissions but does not change the route recovery procedure.
+
+Audit: {"budget_unit": "source_words", "nested": true, "rungs": 3, "verified": true}

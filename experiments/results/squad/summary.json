@@ -1,0 +1,198 @@
+{
+  "available_questions": 10570,
+  "candidate_pool_recall": 0.9133333333333333,
+  "chunks": 6870,
+  "config": {
+    "beam_width": 16,
+    "budgets": [
+      64,
+      96,
+      128,
+      192
+    ],
+    "candidates": 16,
+    "chunk_size": 64,
+    "overlap": 32,
+    "questions": 300,
+    "seed": 2026
+  },
+  "dataset": "SQuAD 1.1 development; retrieval over ALL paragraphs",
+  "dataset_sha256": "95aa6a52d5d6a735563366753ca50492a658031da74f301ac5238b03966972c9",
+  "documents": 2067,
+  "index_build_seconds": 0.14377562500158092,
+  "invalid_gold_annotations_filtered": 0,
+  "notes": [
+    "No answer labels used for retrieval, scoring, or planning.",
+    "Rungs within a question are correlated; clustered intervals are exploratory.",
+    "Latency is local CPU planner-only, single pass, without index or audit."
+  ],
+  "paired_recall_difference": {
+    "independent_density": {
+      "article_cluster_95_percentile_interval": [
+        -0.03362068965517241,
+        -0.009259259259259259
+      ],
+      "clusters": 47,
+      "difference": -0.020833333333333332,
+      "replicates": 2000
+    },
+    "nested_greedy": {
+      "article_cluster_95_percentile_interval": [
+        0.01507936507936508,
+        0.06655290102389079
+      ],
+      "clusters": 47,
+      "difference": 0.04083333333333333,
+      "replicates": 2000
+    },
+    "nested_rank": {
+      "article_cluster_95_percentile_interval": [
+        -0.1847181008902077,
+        -0.10223367697594501
+      ],
+      "clusters": 47,
+      "difference": -0.14416666666666667,
+      "replicates": 2000
+    },
+    "rank_fill": {
+      "article_cluster_95_percentile_interval": [
+        -0.18857142857142858,
+        -0.10215053763440861
+      ],
+      "clusters": 47,
+      "difference": -0.14666666666666667,
+      "replicates": 2000
+    }
+  },
+  "platform": "Darwin arm64",
+  "python": "3.15.0",
+  "questions": 300,
+  "summary": {
+    "independent_density": {
+      "answer_loss_transitions": 24,
+      "answer_span_recall": [
+        0.5533333333333333,
+        0.6,
+        0.67,
+        0.7466666666666667
+      ],
+      "mean_cost": [
+        63.373333333333335,
+        87.15,
+        116.5,
+        180.56333333333333
+      ],
+      "mean_evaluated_masks": 120.07666666666667,
+      "mean_evicted_word_fraction": 0.11238742937973681,
+      "mean_rung_recall": 0.6425,
+      "mean_utility": 0.2702860354682764,
+      "p50_ms": 0.26045800041174516,
+      "p95_ms": 0.3724999987753108
+    },
+    "ladder_beam": {
+      "answer_loss_transitions": 0,
+      "answer_span_recall": [
+        0.5366666666666666,
+        0.57,
+        0.6433333333333333,
+        0.7366666666666667
+      ],
+      "mean_cost": [
+        60.49333333333333,
+        77.09,
+        123.38666666666667,
+        188.83333333333334
+      ],
+      "mean_evaluated_masks": 605.48,
+      "mean_evicted_word_fraction": 0.0,
+      "mean_rung_recall": 0.6216666666666667,
+      "mean_utility": 0.2683780965475699,
+      "p50_ms": 1.4675839956908021,
+      "p95_ms": 1.7997079994529486
+    },
+    "ladder_beam_1": {
+      "answer_loss_transitions": 0,
+      "answer_span_recall": [
+        0.5533333333333333,
+        0.61,
+        0.6333333333333333,
+        0.7466666666666667
+      ],
+      "mean_cost": [
+        63.38,
+        88.66,
+        112.88666666666667,
+        184.19333333333333
+      ],
+      "mean_evaluated_masks": 98.07333333333334,
+      "mean_evicted_word_fraction": 0.0,
+      "mean_rung_recall": 0.6358333333333334,
+      "mean_utility": 0.25751395264534394,
+      "p50_ms": 0.20722900080727413,
+      "p95_ms": 0.283957997453399
+    },
+    "nested_greedy": {
+      "answer_loss_transitions": 0,
+      "answer_span_recall": [
+        0.48,
+        0.5433333333333333,
+        0.58,
+        0.72
+      ],
+      "mean_cost": [
+        53.79,
+        85.52,
+        112.69333333333333,
+        179.58666666666667
+      ],
+      "mean_evaluated_masks": 96.07666666666667,
+      "mean_evicted_word_fraction": 0.0,
+      "mean_rung_recall": 0.5808333333333333,
+      "mean_utility": 0.25700427994261504,
+      "p50_ms": 0.1725625006656628,
+      "p95_ms": 0.2345829998375848
+    },
+    "nested_rank": {
+      "answer_loss_transitions": 0,
+      "answer_span_recall": [
+        0.7066666666666667,
+        0.7433333333333333,
+        0.77,
+        0.8433333333333334
+      ],
+      "mean_cost": [
+        60.083333333333336,
+        84.65333333333334,
+        113.17666666666666,
+        180.72333333333333
+      ],
+      "mean_evaluated_masks": 79.01333333333334,
+      "mean_evicted_word_fraction": 0.0,
+      "mean_rung_recall": 0.7658333333333334,
+      "mean_utility": 0.24682909894568134,
+      "p50_ms": 0.13852049960405566,
+      "p95_ms": 0.20716699509648606
+    },
+    "rank_fill": {
+      "answer_loss_transitions": 3,
+      "answer_span_recall": [
+        0.7066666666666667,
+        0.7433333333333333,
+        0.79,
+        0.8333333333333334
+      ],
+      "mean_cost": [
+        60.083333333333336,
+        84.57,
+        116.25333333333333,
+        181.16333333333333
+      ],
+      "mean_evaluated_masks": 79.12333333333333,
+      "mean_evicted_word_fraction": 0.04648072264544125,
+      "mean_rung_recall": 0.7683333333333333,
+      "mean_utility": 0.2498931777512742,
+      "p50_ms": 0.1384999995934777,
+      "p95_ms": 0.20233399845892563
+    }
+  }
+}

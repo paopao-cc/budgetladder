@@ -1,0 +1,222 @@
+{
+  "accessed": "2026-11-15",
+  "repositories": [
+    {
+      "full_name": "nradawg/context-knapsack",
+      "html_url": "https://github.com/nradawg/context-knapsack",
+      "description": "Pack retrieved snippets under a token budget for coverage, not score: the greedy guard everyone omits, plus a lazy bound that survives falling costs",
+      "pushed_at": "2026-08-13T18:59:19Z",
+      "archived": false,
+      "default_branch": "main",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "head_sha": "590061a683c5fa9ee25b17d85d5c479db9d6e4f5",
+      "root_entries": [
+        ".github",
+        ".gitignore",
+        "LICENSE",
+        "README.md",
+        "package-lock.json",
+        "package.json",
+        "src",
+        "test",
+        "tsconfig.json"
+      ],
+      "inspected_directory": {
+        "path": "src",
+        "entries": [
+          "cost.ts",
+          "index.ts",
+          "model.ts",
+          "pack.ts"
+        ]
+      }
+    },
+    {
+      "full_name": "Yasshu55/SlimContext",
+      "html_url": "https://github.com/Yasshu55/SlimContext",
+      "description": "SlimContext is a deterministic post-retrieval optimizer for RAG \u2014 dedupe, cluster, MMR, and token budgets. No LLM calls.",
+      "pushed_at": "2026-06-07T16:26:35Z",
+      "archived": false,
+      "default_branch": "main",
+      "license": null,
+      "head_sha": "2fed9d52e1e201773a4e74992fa9d60e425266ce",
+      "root_entries": [
+        ".gitignore",
+        "README.md",
+        "app",
+        "benchmarks",
+        "pytest.ini",
+        "requirements.txt",
+        "tests"
+      ],
+      "inspected_directory": {
+        "path": "app",
+        "entries": [
+          "__init__.py",
+          "api.py",
+          "core",
+          "data",
+          "scripts"
+        ]
+      }
+    },
+    {
+      "full_name": "microsoft/LLMLingua",
+      "html_url": "https://github.com/microsoft/LLMLingua",
+      "description": "[EMNLP'23, ACL'24] To speed up LLMs' inference and enhance LLM's perceive of key information, compress the prompt and KV-Cache, which achieves up to 20x compression with minimal performance loss. ",
+      "pushed_at": "2026-11-09T16:46:04Z",
+      "archived": false,
+      "default_branch": "main",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "head_sha": "01b9e9481d7395e1e83a48df4a062b11f6304325",
+      "root_entries": [
+        ".github",
+        ".gitignore",
+        ".pre-commit-config.yaml",
+        "CODE_OF_CONDUCT.md",
+        "DOCUMENT.md",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "SECURITY.md",
+        "SUPPORT.md",
+        "Transparency_FAQ.md",
+        "examples",
+        "experiments",
+        "images",
+        "llmlingua",
+        "pyproject.toml",
+        "setup.cfg",
+        "setup.py",
+        "tests"
+      ],
+      "inspected_directory": {
+        "path": "llmlingua",
+        "entries": [
+          "__init__.py",
+          "prompt_compressor.py",
+          "utils.py",
+          "version.py"
+        ]
+      }
+    },
+    {
+      "full_name": "langchain-ai/langchain",
+      "html_url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "pushed_at": "2026-11-14T08:44:18Z",
+      "archived": false,
+      "default_branch": "master",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "head_sha": "ea17e48f0a4336c920394fd029de99f1568b4c38",
+      "root_entries": [
+        ".devcontainer",
+        ".dockerignore",
+        ".editorconfig",
+        ".gitattributes",
+        ".github",
+        ".gitignore",
+        ".markdownlint.json",
+        ".mcp.json",
+        ".pre-commit-config.yaml",
+        ".vscode",
+        "AGENTS.md",
+        "CITATION.cff",
+        "LICENSE",
+        "README.md",
+        "libs",
+        "openwiki"
+      ],
+      "inspected_directory": {
+        "path": "libs",
+        "entries": [
+          "Makefile",
+          "README.md",
+          "core",
+          "langchain",
+          "langchain_v1",
+          "model-profiles",
+          "partners",
+          "standard-tests",
+          "text-splitters"
+        ]
+      }
+    },
+    {
+      "full_name": "run-llama/llama_index",
+      "html_url": "https://github.com/run-llama/llama_index",
+      "description": "LlamaIndex is the document processing platform for AI",
+      "pushed_at": "2026-11-14T02:26:05Z",
+      "archived": false,
+      "default_branch": "main",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "head_sha": "99d7433f6f71888951379ccca9294e272442c832",
+      "root_entries": [
+        ".github",
+        ".gitignore",
+        ".pre-commit-config.yaml",
+        ".readthedocs.yaml",
+        "CHANGELOG.md",
+        "CITATION.cff",
+        "CODE_OF_CONDUCT.md",
+        "CONTRIBUTING.md",
+        "LICENSE",
+        "Makefile",
+        "README.md",
+        "RELEASE_HEAD.md",
+        "SECURITY.md",
+        "STALE.md",
+        "docs.config.mjs",
+        "docs",
+        "llama-dev",
+        "llama-index-core",
+        "llama-index-instrumentation",
+        "llama-index-integrations",
+        "llama-index-utils",
+        "pyproject.toml",
+        "scripts",
+        "uv.lock"
+      ],
+      "inspected_directory": {
+        "path": "llama-index-core/llama_index/core/postprocessor",
+        "entries": [
+          "__init__.py",
+          "llm_rerank.py",
+          "metadata_replacement.py",
+          "node.py",
+          "node_recency.py",
+          "optimizer.py",
+          "pii.py",
+          "rankGPT_rerank.py",
+          "sbert_rerank.py",
+          "structured_llm_rerank.py",
+          "types.py"
+        ]
+      }
+    }
+  ]
+}

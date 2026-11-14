@@ -1,0 +1,8 @@
+{
+  "query": "How does the rover conserve energy and recover its route?",
+  "documents": [
+    {"id": "energy", "text": "The rover samples battery charge every minute. When charge falls below thirty percent it reduces camera frequency and slows its drive motors. A solar panel replenishes the pack during daylight. During a dust storm the rover parks beside a marked shelter and waits for light levels to recover. These rules conserve energy without requiring a cloud connection."},
+    {"id": "navigation", "text": "The rover stores route checkpoints on local flash storage. Each checkpoint contains wheel odometry and a landmark signature. After a restart it matches the nearest landmark before resuming the route. If no landmark matches it returns to the previous safe waypoint and requests operator review. Recovery does not assume that the last motor command completed."},
+    {"id": "radio", "text": "The base station receives a compact status message every five minutes. Messages contain charge level and the current checkpoint identifier. If the radio link fails the rover buffers status messages locally. This radio policy limits transmissions but does not change the route recovery procedure."}
+  ]
+}

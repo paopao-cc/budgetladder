@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "budget_unit": "source_words",
+  "objective": "weighted_source_coverage_v1",
+  "documents": [
+    {
+      "id": "energy",
+      "sha256": "00bfe8f8e87080864cb3b67b462a6edb01945686dfff3130976027e593e6114b"
+    },
+    {
+      "id": "navigation",
+      "sha256": "e1776caa74bb5a20cce0bdd12e996b61719f9cf5d2e225a91132d1619c193498"
+    },
+    {
+      "id": "radio",
+      "sha256": "e427b4d3ae49bd6bd0fadb47243080195f5d3be80fe05051a64d4d7e21b3bd47"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "energy:0-32",
+      "document_id": "energy",
+      "start": 0,
+      "end": 32,
+      "score": 0.3092411761036243
+    },
+    {
+      "id": "energy:16-48",
+      "document_id": "energy",
+      "start": 16,
+      "end": 48,
+      "score": 1.589719644961053
+    },
+    {
+      "id": "energy:32-57",
+      "document_id": "energy",
+      "start": 32,
+      "end": 57,
+      "score": 5.476432709869214
+    },
+    {
+      "id": "navigation:0-32",
+      "document_id": "navigation",
+      "start": 0,
+      "end": 32,
+      "score": 1.6098608456042358
+    },
+    {
+      "id": "navigation:16-48",
+      "document_id": "navigation",
+      "start": 16,
+      "end": 48,
+      "score": 0.9346800731911761
+    },
+    {
+      "id": "radio:0-32",
+      "document_id": "radio",
+      "start": 0,
+      "end": 32,
+      "score": 0.3032104706108126
+    },
+    {
+      "id": "radio:16-44",
+      "document_id": "radio",
+      "start": 16,
+      "end": 44,
+      "score": 1.2833140399258662
+    }
+  ],
+  "packs": [
+    {
+      "budget": 32,
+      "selected": [
+        "energy:32-57"
+      ],
+      "cost": 25,
+      "utility": 0.5450236735737485,
+      "spans": [
+        {
+          "document_id": "energy",
+          "start": 32,
+          "end": 57,
+          "char_start": 203,
+          "char_end": 358,
+          "text": "dust storm the rover parks beside a marked shelter and waits for light levels to recover. These rules conserve energy without requiring a cloud connection."
+        }
+      ]
+    },
+    {
+      "budget": 64,
+      "selected": [
+        "energy:32-57",
+        "navigation:0-32"
+      ],
+      "cost": 57,
+      "utility": 0.7255484457363051,
+      "spans": [
+        {
+          "document_id": "energy",
+          "start": 32,
+          "end": 57,
+          "char_start": 203,
+          "char_end": 358,
+          "text": "dust storm the rover parks beside a marked shelter and waits for light levels to recover. These rules conserve energy without requiring a cloud connection."
+        },
+        {
+          "document_id": "navigation",
+          "start": 0,
+          "end": 32,
+          "char_start": 0,
+          "char_end": 205,
+          "text": "The rover stores route checkpoints on local flash storage. Each checkpoint contains wheel odometry and a landmark signature. After a restart it matches the nearest landmark before resuming the route. If no"
+        }
+      ]
+    },
+    {
+      "budget": 96,
+      "selected": [
+        "energy:32-57",
+        "navigation:0-32",
+        "radio:16-44"
+      ],
+      "cost": 85,
+      "utility": 0.8502539941753449,
+      "spans": [
+        {
+          "document_id": "energy",
+          "start": 32,
+          "end": 57,
+          "char_start": 203,
+          "char_end": 358,
+          "text": "dust storm the rover parks beside a marked shelter and waits for light levels to recover. These rules conserve energy without requiring a cloud connection."
+        },
+        {
+          "document_id": "navigation",
+          "start": 0,
+          "end": 32,
+          "char_start": 0,
+          "char_end": 205,
+          "text": "The rover stores route checkpoints on local flash storage. Each checkpoint contains wheel odometry and a landmark signature. After a restart it matches the nearest landmark before resuming the route. If no"
+        },
+        {
+          "document_id": "radio",
+          "start": 16,
+          "end": 44,
+          "char_start": 105,
+          "char_end": 295,
+          "text": "the current checkpoint identifier. If the radio link fails the rover buffers status messages locally. This radio policy limits transmissions but does not change the route recovery procedure."
+        }
+      ]
+    }
+  ]
+}
